@@ -2,14 +2,15 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/drawpanel.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/extractor_api.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/fragmentation.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/jdom.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/tamuCollection.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/weka.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/libsvm-3.17/java/libsvm.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Halil/Desktop/Skemetch/SkemetchApp/lib/jpen-2-111002/jpen-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/drawpanel.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/extractor_api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/fragmentation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/tamuCollection.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/weka.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/jpen-2-111002/jpen-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/libsvm-3.17/java/libsvm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Halil/workspace/Skemetch/SkemetchApp/lib/jpen-2-100213/jpen-2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

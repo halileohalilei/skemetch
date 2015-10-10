@@ -65,6 +65,7 @@ public class SymbolFactory {
 		types.add("9");
 	}
 
+	// creates a new Symbol object based on the classified features
 	public Symbol getNewSymbol(int label, List<SketchPoint> points) {
 
 		if (label < 8) {
@@ -81,6 +82,7 @@ public class SymbolFactory {
 		return types.get(label);
 	}
 
+	// given all the points of a sketch, determines its position
 	private Rectangle findPosition(List<SketchPoint> points) {
 		Rectangle pos = new Rectangle();
 		double minX = 9999;

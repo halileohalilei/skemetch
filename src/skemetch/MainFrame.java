@@ -8,7 +8,6 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.GridLayout;
-import java.awt.Image;
 import java.awt.RenderingHints;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -18,7 +17,6 @@ import java.awt.geom.Point2D;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 import java.util.UUID;
 
 import javax.swing.JButton;
@@ -53,8 +51,6 @@ public class MainFrame extends PenAdapter {
 
 	Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
 
-	Stack<List<SketchPoint>> states = new Stack<List<SketchPoint>>();
-
 	JPanel panel = new JPanel();
 	JFrame frame = new JFrame("Skemetch");
 
@@ -72,21 +68,30 @@ public class MainFrame extends PenAdapter {
 	Graphics2D g2d;
 	BasicStroke stroke;
 
-	Image box;
-
 	float brushSize;
 	float opacity;
 
+	//time required to start recognition after draw
 	final double recognitionDelay = 1.2;
 
+	//points to store the draw positions
 	Point2D.Float loc = new Point2D.Float();
 	Point2D.Float prevLoc = new Point2D.Float();
 
+	// In the ideal case, there should not be a need for both points and currentSketch
+	// there was a mistake made during the data collection phase, only the point data were 
+	// collected but not their respective stroke counts.
+	// Therefore, points variable holds each point without their stroke count, whereas currentSketch
+	// holds both points and their respective stroke counts.
+	// points is used for classification and currentSketch is used for redrawing the canvas when
+	// the user toggles sketchMode on and off.
 	List<SketchPoint> points = new ArrayList<SketchPoint>();
-
 	Sketch currentSketch = new Sketch();
 
+	// used to check whether the timer should be started or not
 	boolean hasNewData = false;
+	
+	// true for hand-drawn, false for symbol images
 	boolean sketchMode = true;
 
 	Timer timer = new Timer((int) Math.round(1000 * recognitionDelay),
@@ -97,12 +102,16 @@ public class MainFrame extends PenAdapter {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 
+			// save each point into an XML file
 			OnlineSampleHandler.instance.saveInputSketch(points);
 			try {
+				// extract the features from the newly saved XML file
 				double[] features = OnlineSampleHandler.instance.extract();
+				// classify using features
 				double label = OnlineSampleHandler.instance
 						.classifySketch(features);
 
+				//create the Symbol object for the classified features
 				Symbol newSymbol = SymbolFactory.instance.getNewSymbol(
 						(int) label, points);
 				log.append("Recognized symbol: " + newSymbol.getClassName()
@@ -213,10 +222,16 @@ public class MainFrame extends PenAdapter {
 
 				SymbolContainer.instance.addNewSymbol(newSymbol);
 				SymbolContainer.instance.addNewSketch(currentSketch.clone());
+				
 				drawEverything();
+				
+				// after classification and addition of the Symbol object to our SymbolContainer
+				// clear the Sketch object and the list that holds all points, so that we can start
+				// accepting new points on the canvas again
 				currentSketch.clear();
 				points.clear();
 
+				// regenerate the scheme code after the addition of the newest symbol
 				schemeCodeText.setText(SymbolContainer.instance
 						.generateSchemeCode());
 			} catch (IOException e1) {
@@ -224,6 +239,7 @@ public class MainFrame extends PenAdapter {
 			} catch (JDOMException e1) {
 				e1.printStackTrace();
 			}
+			// set hasNewData to false so the timer won't start before the user provides new data
 			hasNewData = false;
 		}
 	}
@@ -272,12 +288,9 @@ public class MainFrame extends PenAdapter {
 	}
 
 	private void drawEverything() {
-		//frame.repaint();
 		g2d.setColor(Color.white);
 		g2d.fillRect(0, 0, panel.getWidth(), panel.getHeight());
-		//g2d.clearRect(0, 0, panel.getWidth(), panel.getHeight());
 		
-
 		if (sketchMode) {
 			for (int i = 0; i < SymbolContainer.instance.getSize(); i++) {
 				ImageHandler.instance.drawSketch(g2d, SymbolContainer.instance
@@ -291,6 +304,8 @@ public class MainFrame extends PenAdapter {
 		}
 	}
 
+	// this part is called when a MainFrame object is created.
+	// serves the same purpose as a constructor.
 	{
 		OnlineSampleHandler.init();
 
@@ -361,8 +376,10 @@ public class MainFrame extends PenAdapter {
 
 	}
 
+	//called whenever pen or mouse moves inside canvas
 	@Override
 	public void penLevelEvent(PLevelEvent ev) {
+
 		if (!ev.isMovement()) {
 			if (hasNewData) {
 				if (!timer.isRunning()) {
@@ -376,6 +393,9 @@ public class MainFrame extends PenAdapter {
 
 		if (pressure > 0) {
 			hasNewData = true;
+			
+			//if the user finished a stroke before, the timer must be running
+			//we can check whether the timer is running to know if the user started a new stroke
 			if (timer.isRunning()) {
 				timer.stop();
 				currentSketch.incrementNoOfStrokes();
@@ -384,7 +404,6 @@ public class MainFrame extends PenAdapter {
 			if (hasNewData) {
 				if (!timer.isRunning()) {
 					timer.start();
-					// currentSketch.incrementNoOfStrokes();
 				}
 			}
 		}
@@ -395,6 +414,7 @@ public class MainFrame extends PenAdapter {
 		loc.x = ev.pen.getLevelValue(PLevel.Type.X);
 		loc.y = ev.pen.getLevelValue(PLevel.Type.Y);
 
+		//actual drawing happens here
 		if (brushSize > 0) {
 			g2d.setColor(new Color((int) opacity, (int) opacity, (int) opacity,
 					255));
@@ -405,6 +425,8 @@ public class MainFrame extends PenAdapter {
 		}
 
 		prevLoc.setLocation(loc);
+		
+		//store the drawn data in a SketchPoint object and add it
 		if (pressure > 0
 				&& panel.getBounds().contains(
 						new Point2D.Float(loc.x + 250, loc.y))) {

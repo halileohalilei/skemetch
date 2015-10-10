@@ -4150,3 +4150,304 @@
 10 Oct 2015, 16:27:03:814      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
 10 Oct 2015, 16:27:03:814      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
 10 Oct 2015, 16:27:03:814      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:48:31:833      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 21:48:31:836      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 21:48:42:724      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:48:42:725      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:48:42:727      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:48:42:728      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:48:42:728      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:48:42:729      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:48:43:022      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:48:43:023      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:48:43:023      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:48:43:023      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:48:43:025      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 21:48:48:701      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:48:48:701      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:48:48:702      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:48:48:703      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:48:48:703      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:48:48:703      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:56:49:279      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 21:56:49:282      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 21:56:56:145      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:56:56:146      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:56:56:149      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:56:56:149      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:56:56:150      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:56:56:150      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:56:56:590      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:56:56:591      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:56:56:591      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:56:56:591      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:56:56:593      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 21:57:05:796      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:57:05:797      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:57:05:798      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:57:05:798      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:57:05:799      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:57:05:799      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:57:29:210      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 21:57:29:213      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 21:57:38:224      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:57:38:225      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:57:38:228      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:57:38:229      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:57:38:229      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:57:38:229      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:57:38:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:57:38:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:57:38:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:57:38:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:57:38:629      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 21:57:49:486      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:57:49:486      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:57:49:487      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:57:49:488      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:57:49:488      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:57:49:488      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:57:49:594      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:57:49:594      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:57:49:594      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:57:49:594      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:57:49:596      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 21:57:59:338      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:57:59:339      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:57:59:340      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:57:59:340      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:57:59:341      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:57:59:341      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:57:59:627      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:57:59:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:57:59:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:57:59:628      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:57:59:629      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 21:58:02:901      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:58:02:902      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:58:02:902      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:58:02:903      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:58:02:903      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:58:02:904      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:58:02:918      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:58:02:918      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:58:02:918      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:58:02:918      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:58:02:919      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 21:58:05:353      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 21:58:05:354      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 21:58:05:355      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 21:58:05:355      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 21:58:05:355      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 21:58:05:356      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 21:58:05:434      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 21:58:05:434      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 21:58:05:434      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 21:58:05:434      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 21:58:05:435      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:31:29:140      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 22:31:29:142      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 22:31:36:564      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:31:36:565      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:31:36:568      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:31:36:568      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:31:36:569      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:31:36:569      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:31:36:894      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:31:36:894      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:31:36:894      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:31:36:894      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:31:36:894      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:31:42:238      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:31:42:239      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:31:42:240      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:31:42:240      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:31:42:240      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:31:42:241      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:31:42:246      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:31:42:247      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:31:42:247      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:31:42:247      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:31:42:248      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:31:46:712      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:31:46:712      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:31:46:713      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:31:46:714      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:31:46:714      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:31:46:714      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:39:17:788      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 22:39:17:790      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 22:39:24:493      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:39:24:494      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:39:24:497      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:39:24:498      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:39:24:498      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:39:24:498      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:39:24:836      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:39:24:836      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:39:24:837      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:39:24:837      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:39:24:837      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:39:31:082      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:39:31:082      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:39:31:083      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:39:31:084      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:39:31:084      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:39:31:085      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:41:59:208      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 22:41:59:210      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 22:42:04:909      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:42:04:910      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:42:04:913      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:42:04:913      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:42:04:914      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:42:04:914      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:42:04:939      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:42:04:940      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:42:04:940      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:42:04:940      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:42:04:942      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:42:19:908      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:42:19:909      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:42:19:910      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:42:19:910      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:42:19:911      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:42:19:911      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:43:40:097      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 22:43:40:100      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 22:43:46:636      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:43:46:636      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:43:46:640      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:43:46:640      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:43:46:641      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:43:46:641      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:45:13:181      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 22:45:13:183      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 22:45:20:497      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:45:20:498      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:45:20:500      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:45:20:501      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:45:20:501      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:45:20:502      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:45:20:789      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:45:20:790      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:45:20:790      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:45:20:790      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:45:20:791      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:45:27:183      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:45:27:183      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:45:27:184      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:45:27:185      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:45:27:185      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:45:27:185      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:45:27:192      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:45:27:193      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:45:27:193      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:45:27:193      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:45:27:205      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:45:31:499      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:45:31:500      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:45:31:501      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:45:31:501      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:45:31:502      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:45:31:502      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 22:45:31:954      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+10 Oct 2015, 22:45:31:954      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+10 Oct 2015, 22:45:31:954      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+10 Oct 2015, 22:45:31:954      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+10 Oct 2015, 22:45:31:955      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+10 Oct 2015, 22:45:35:642      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 22:45:35:643      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 22:45:35:644      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 22:45:35:644      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 22:45:35:644      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 22:45:35:645      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 23:54:41:997      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 23:54:41:999      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 23:54:51:309      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+10 Oct 2015, 23:54:51:310      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+10 Oct 2015, 23:54:51:313      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+10 Oct 2015, 23:54:51:314      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+10 Oct 2015, 23:54:51:315      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+10 Oct 2015, 23:54:51:315      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+10 Oct 2015, 23:55:15:887      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 23:55:15:889      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 23:55:27:854      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 23:55:27:857      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+10 Oct 2015, 23:57:11:198      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+10 Oct 2015, 23:57:11:199      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 00:07:00:582      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+11 Oct 2015, 00:07:00:584      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 00:07:07:730      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 00:07:07:731      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 00:07:07:733      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 00:07:07:734      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 00:07:07:734      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 00:07:07:734      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 00:07:08:075      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+11 Oct 2015, 00:07:08:076      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+11 Oct 2015, 00:07:08:076      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+11 Oct 2015, 00:07:08:076      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+11 Oct 2015, 00:07:08:077      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+11 Oct 2015, 01:59:47:163      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+11 Oct 2015, 01:59:47:166      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 01:59:57:510      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 01:59:57:510      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 01:59:57:513      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 01:59:57:514      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 01:59:57:515      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 01:59:57:515      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 02:01:57:285      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+11 Oct 2015, 02:01:57:287      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 02:02:05:331      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 02:02:05:332      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 02:02:05:334      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 02:02:05:335      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 02:02:05:336      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 02:02:05:336      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 02:02:18:854      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+11 Oct 2015, 02:02:18:857      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 02:02:25:327      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 02:02:25:328      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 02:02:25:331      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 02:02:25:332      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 02:02:25:333      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 02:02:25:333      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 02:04:15:763      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+11 Oct 2015, 02:04:15:765      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 02:04:25:211      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 02:04:25:212      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 02:04:25:215      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 02:04:25:215      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 02:04:25:216      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 02:04:25:216      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 02:04:25:378      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+11 Oct 2015, 02:04:25:379      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+11 Oct 2015, 02:04:25:379      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+11 Oct 2015, 02:04:25:379      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+11 Oct 2015, 02:04:25:381      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+11 Oct 2015, 02:04:34:497      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 02:04:34:498      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 02:04:34:499      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 02:04:34:499      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 02:04:34:499      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 02:04:34:500      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 02:05:23:163      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:20) -- --------------------------------------------------------
+11 Oct 2015, 02:05:23:166      DEBUG [generic   ] [main] skemetch.Main.startLogger(Main.java:22) -- main: New engine started
+11 Oct 2015, 02:05:31:189      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 02:05:31:190      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 02:05:31:193      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 02:05:31:194      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 02:05:31:194      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 02:05:31:195      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]
+11 Oct 2015, 02:05:31:475      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:229) -- Data: Symbol #0 (newSketch)
+11 Oct 2015, 02:05:31:475      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:230) -- Data:            All Files          : 1
+11 Oct 2015, 02:05:31:475      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:231) -- Data:            Cumulative Total   : 1
+11 Oct 2015, 02:05:31:475      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.loadAllData(Data.java:242) -- Data: Updating lengthmargins.txt
+11 Oct 2015, 02:05:31:476      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Load all data: DONE ***
+11 Oct 2015, 02:05:37:426      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading symbol names
+11 Oct 2015, 02:05:37:427      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 symbols found
+11 Oct 2015, 02:05:37:428      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- *** Data: Loading all data ***
+11 Oct 2015, 02:05:37:428      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: Loading all data: Symbols
+11 Oct 2015, 02:05:37:428      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 examples found for symbol 0
+11 Oct 2015, 02:05:37:429      DEBUG [generic   ] [AWT-EventQueue-0] tr.edu.ku.iui.features.Data.log(Data.java:59) -- Data: 1 example files (xml) loaded for symbol "newSketch" [0]

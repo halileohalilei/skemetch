@@ -26,6 +26,7 @@ public class OnlineSampleHandler {
 
 	public static OnlineSampleHandler instance = new OnlineSampleHandler();
 
+	// loads the pre-calculated SVM classifier
 	public static void init() {
 		try {
 			svm.svm_load_model("classifier");
@@ -34,8 +35,10 @@ public class OnlineSampleHandler {
 		}
 	}
 
+	// saves the points of a sketch to an XML file.
+	// it should be noted that this method takes a list of points WITHOUT their respective stroke counts
 	public void saveInputSketch(List<SketchPoint> points) {
-
+		System.out.println("SAVEINPUTSKETCH IS CALLED");
 		try {
 			Element sketch = new Element("sketch");
 			sketch.setAttribute(new Attribute("id", UUID.randomUUID()
@@ -87,17 +90,18 @@ public class OnlineSampleHandler {
 
 	}
 
+	// extracts features from the newly created XML file containing point data
 	public double[] extract() throws IOException, JDOMException {
 		Feature onlineSketch = null;
-		try
-		{
+//		try
+//		{
 			List<Feature> samples = Extractor.extract("online/", param, ".xml");
 			onlineSketch = samples.get(0);
-		} 
-		catch(Exception e)
-		{
-			e.printStackTrace();
-		}
+//		} 
+//		catch(Exception e)
+//		{
+//			e.printStackTrace();
+//		}
 		return onlineSketch.getFeatureData();
 	}
 

@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sketch {
+	//number of strokes the sketch consists of
 	private int noOfStrokes = 0;
+	//a List of SketchPoint's are stored for each stroke in the Sketch
 	private List<List<SketchPoint>> points;
 
 	public Sketch() {
