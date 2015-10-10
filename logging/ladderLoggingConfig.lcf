@@ -1,0 +1,42 @@
+# The root category uses the appender called ROOT_APP. You can comment/uncomment
+# a given line to change the default level of debugging for the entire 
+# application. For development, you probably want DEBUG. For Deployment, you 
+# probably don't want anything but ERROR by default. This can always be changed
+# by editing this file if you need more/less, and you don't have to modify
+# the logging code within the application itself.
+
+
+###################### Root Logger
+# For development
+#log4j.debug = false
+#log4j.rootCategory=DEBUG, ROOT_APP
+# For deployment
+log4j.rootCategory=ERROR, ROOT_APP 
+
+
+###################### ROOT_APP appender
+# APP is set to be a RollingFileAppender which outputs to the file
+# "ladder.log". If the file gets above a specified size limit, create a new 
+# log file, up to a certain number of log files.
+log4j.appender.ROOT_APP=org.apache.log4j.RollingFileAppender
+log4j.appender.ROOT_APP.File=logs/ladder.log
+
+# 5MB log size limit
+log4j.appender.ROOT_APP.MaxFileSize=5000KB
+
+# just one other file, then start to recycle
+log4j.appender.ROOT_APP.MaxBackupIndex=1
+log4j.appender.ROOT_APP.layout=org.apache.log4j.PatternLayout
+
+# Format to use when logging entries in the ROOT_APP log.
+# See org.apache.log4j.PatternLayout for field details
+# Date, priority, thread, logger location (SLOW), message, endline
+log4j.appender.ROOT_APP.layout.ConversionPattern=%-35d{dd MMM yyyy, HH:mm:ss:SSS} %-5p [%t] %l -- %m%n
+
+
+
+# We can create different appenders and files for different parts of LADDER. 
+# These loggers will log their information in their local appenders, PLUS all 
+# that information will also be present in the root logger. But, these 
+# sub-loggers can have different priorities, etc. 
+# For example, here's a logger for objects in org.ladder.core

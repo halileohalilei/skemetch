@@ -1,0 +1,36 @@
+/* Colors inspired by jhexamples.css 10/29/2002. */
+
+body  {
+  color: Black;
+	background-color: White;
+}
+
+hr {
+  border: none 0;
+  /*border-top: 1px solid #c0c0c0;*/
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+	color: #663300;
+}
+
+table, td, th {
+  border-color: silver;
+}
+
+table {
+  border-style: none;
+}
+
+span.textit {
+		font-style: italic;
+}
+
+address, div[class="bottom"] {
+  color: #b0b0b0;
+  font-style: normal;
+  text-align: center;
+  font-size: x-small;
+  margin-top: 1em;
+}

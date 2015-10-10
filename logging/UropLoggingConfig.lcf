@@ -1,0 +1,47 @@
+# The root category uses the appender called ROOT_APP. You can comment/uncomment
+# a given line to change the default level of debugging for the entire 
+# application. For development, you probably want DEBUG. For Deployment, you 
+# probably don't want anything but ERROR by default. This can always be changed
+# by editing this file if you need more/less, and you don't have to modify
+# the logging code within the application itself.
+
+
+###################### Root Logger
+# For development
+log4j.debug = true
+lon4j.threshold = ALL
+log4j.rootLogger = ALL, ROOT_LOG
+
+log4j.logger.generic = ALL, GENERIC
+log4j.logger.training = ALL, TRAINING
+
+# For deployment
+## log4j.rootCategory=ERROR, ROOT_APP 
+
+
+log4j.appender.console = org.apache.log4j.ConsoleAppender
+log4j.appender.layout = org.apache.log4j.PatternLayout
+
+
+log4j.appender.ROOT_LOG = org.apache.log4j.RollingFileAppender
+log4j.appender.ROOT_LOG.File = logs/root_log.log
+log4j.appender.ROOT_LOG.MaxFileSize=5000KB
+log4j.appender.ROOT_LOG.MaxBackupIndex=1
+log4j.appender.ROOT_LOG.layout=org.apache.log4j.PatternLayout
+log4j.appender.ROOT_LOG.layout.ConversionPattern=%-30d{dd MMM yyyy, HH:mm:ss:SSS} %-5p [%-10c] [%t] %l -- %m%n
+
+log4j.appender.GENERIC = org.apache.log4j.RollingFileAppender
+log4j.appender.GENERIC.File = logs/urop.log
+log4j.appender.GENERIC.MaxFileSize=5000KB
+log4j.appender.GENERIC.MaxBackupIndex=1
+log4j.appender.GENERIC.layout=org.apache.log4j.PatternLayout
+log4j.appender.GENERIC.layout.ConversionPattern=%-30d{dd MMM yyyy, HH:mm:ss:SSS} %-5p [%-10c] [%t] %l -- %m%n
+
+
+log4j.appender.TRAINING = org.apache.log4j.RollingFileAppender
+log4j.appender.TRAINING.File = logs/training.log
+log4j.appender.TRAINING.MaxFileSize=5000KB
+log4j.appender.TRAINING.MaxBackupIndex=1
+log4j.appender.TRAINING.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRAINING.layout.ConversionPattern=%-30d{dd MMM yyyy, HH:mm:ss:SSS} %-5p [%-10c] [%t] %l -- %m%n
+

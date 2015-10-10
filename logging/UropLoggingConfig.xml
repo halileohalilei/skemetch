@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration >
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="true">
+   
+<plugin name="LogFileReceiver" class="org.apache.log4j.varia.LogFilePatternReceiver">
+     <param name="fileURL" value="file:///e:/workspace/ReljaSketchRecog/logging/root_log.log"   />
+     <param name="timestampFormat" value="dd MMM yyyy, HH:mm:ss:SSS"  /> 
+     <param name="logFormat" value="TIMESTAMP LEVEL [LOGGER] [THREAD] LINE -- MESSAGE"/> 
+     <param name="name" value="RootLog"  />
+     <param name="tailing" value="true"  /> 
+   </plugin>
+
+   <plugin name="LogFileReceiver" class="org.apache.log4j.varia.LogFilePatternReceiver">
+     <param name="fileURL" value="file:///e:/workspace/ReljaSketchRecog/logging/urop.log"   />
+     <param name="timestampFormat" value="dd MMM yyyy, HH:mm:ss:SSS"  /> 
+     <param name="logFormat" value="TIMESTAMP LEVEL [LOGGER] [THREAD] LINE -- MESSAGE"/> 
+     <param name="name" value="GenericLog"  />
+     <param name="tailing" value="true"  /> 
+   </plugin>
+
+   <plugin name="LogFileReceiver" class="org.apache.log4j.varia.LogFilePatternReceiver">
+     <param name="fileURL" value="file:///e:/workspace/ReljaSketchRecog/logging/training.log"   />
+     <param name="timestampFormat" value="dd MMM yyyy, HH:mm:ss:SSS"  /> 
+     <param name="logFormat" value="TIMESTAMP LEVEL [LOGGER] [THREAD] LINE -- MESSAGE"/> 
+     <param name="name" value="TrainingLog"  />
+     <param name="tailing" value="true"  /> 
+   </plugin>
+
+   <root>
+      <level value="debug"/>
+   </root>
+</log4j:configuration>
